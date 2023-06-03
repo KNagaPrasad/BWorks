@@ -9,7 +9,7 @@ The Bicycles entity captures details about each bicycle available for donation o
 
 Transactions play a crucial role in the BWorks project as they represent the interaction between users and bicycles. Each transaction involves a specific bicycle and a user. It contains information about the transaction date and whether the transaction is a donation or a purchase. The transaction entity enables the platform to track the history of bicycle movements and facilitate smooth operations.
 
-By utilizing SQLAlchemy's powerful ORM (Object-Relational Mapping), the BWorks project simplifies the management of database operations. SQLAlchemy allows developers to interact with the database using Python classes and objects, eliminating the need for writing complex SQL queries manually. The platform leverages the capabilities of SQL Server Management Studio (SSMS) as the underlying database management system, providing a robust and scalable solution.
+The BWorks project makes use of SQLAlchemy's ORM (Object-Relational Mapping) to streamline database operations. With SQLAlchemy, developers can interact with the database using Python objects and classes, eliminating the need for manual composition of intricate SQL queries. The platform relies on SQL Server Management Studio (SSMS) as the database management system, ensuring a reliable and scalable solution.
 
 With the BWorks project, users can easily navigate the platform, donate their bicycles to others, or purchase bicycles from available listings. The intuitive user interface allows users to search for specific bicycles based on brand, model, or other criteria. Users can also view the details of a bicycle, including its condition and availability status.
 
@@ -19,7 +19,6 @@ The BWorks project enhances the accessibility of bicycles and fosters a culture 
 
 
 ![image](https://github.com/KNagaPrasad/BWorks/assets/129809773/c7247ce7-2e8f-455b-8af3-575fb940fbd5)
-          
 User Interface: The user interacts with the BWorks project through a user interface, which provides a visually appealing and intuitive platform for users to donate or purchase bicycles. The interface allows users to input their preferences, search for bicycles, and perform various actions.
 
 User Actions: Users perform actions such as donating a bicycle, purchasing a bicycle, searching for bicycles, and managing their own bicycle listings. These actions are initiated by the user through the user interface.
