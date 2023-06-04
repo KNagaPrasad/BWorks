@@ -3,7 +3,7 @@
 
 The BWorks project aims to create a platform for bicycle enthusiasts, where they can donate or purchase bicycles. This platform provides a user-friendly interface and leverages the power of SQLAlchemy, a  Python library for working with databases, along with SQL Server Management Studio (SSMS) as the database management system in practice.
 
-The core entities of the BWorks project are Users, Bicycles, and Transactions. Users represent individuals who interact with the platform, storing essential information such as their name, email, address, username, and password. Users can have multiple associated bicycles, creating a one-to-many relationship.
+The core entities of the BWorks project are Users, Bicycles, and Transactions. Users represent individuals who interact with the platform, storing essential information such as their name, email, address, username, and password. Users can have multiple associated bicycles, creating a one-to-many relationship in the real world.
 
 The Bicycles entity has data about each bicycle that is available for purchase or gift, including the brand, model, color, availability, and condition. Bicycles are linked to certain users, making it possible to track and manage them efficiently. A foreign key constraint is used to build the link between Users and Bicycles.
 
